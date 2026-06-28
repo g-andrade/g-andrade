@@ -109,6 +109,20 @@ and [others](https://github.com/search?q=author%3Ag-andrade+is%3Apr+is%3Amerged&
 
 ---
 
+## Technologies
+
+**Languages** — Erlang, Elixir, SQL, C++; some C, JavaScript, Python, Rust over the years
+
+**Runtime / frameworks** — OTP, Cowboy, Phoenix (LiveView), Ecto, Protocol Buffers
+
+**Infrastructure** — GCP and AWS; Terraform, CloudFormation, Docker; demand-driven autoscaling via cloud-provider APIs
+
+**Data** — PostgreSQL, DynamoDB, Redis
+
+**Observability & CI/CD** — Datadog, OpenTelemetry, PagerDuty; GitHub Actions, Jenkins, CodeDeploy
+
+---
+
 ## Experiments
 
 Small interactive toys — audio illusions, optics, generative graphics:
@@ -125,20 +139,6 @@ Small interactive toys — audio illusions, optics, generative graphics:
 ## Talks
 
 [erlchronos](https://www.gandrade.net/talks/erlchronos_euc2016/) — a gen_server wrapper with ticks (Erlang User Conference 2016)
-
----
-
-## Technologies
-
-**Languages** — Erlang, Elixir, SQL, C++; some C, JavaScript, Python, Rust over the years
-
-**Runtime / frameworks** — OTP, Cowboy, Phoenix (LiveView), Ecto, Protocol Buffers
-
-**Infrastructure** — GCP and AWS; Terraform, CloudFormation, Docker; demand-driven autoscaling via cloud-provider APIs
-
-**Data** — PostgreSQL, DynamoDB, Redis
-
-**Observability & CI/CD** — Datadog, OpenTelemetry, PagerDuty; GitHub Actions, Jenkins, CodeDeploy
 
 ---
 
