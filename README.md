@@ -61,8 +61,9 @@ The work spanned the full stack of a real-time game backend:
 
 ### RNL — Técnico Lisboa · Systems Administrator · 2010–2012
 
-Maintained computing and network infrastructure for the university's
-student-run IT group.
+Ran the university's student-run computing facilities as part of a six-person
+team — the student computer labs (the bulk of the fleet) plus the servers and
+network behind them, mostly Linux with some Windows/Active Directory.
 
 ---
 
@@ -120,6 +121,8 @@ and [others](https://github.com/search?q=author%3Ag-andrade+is%3Apr+is%3Amerged&
 **Data** — PostgreSQL, DynamoDB, Redis
 
 **Observability & CI/CD** — Datadog, OpenTelemetry, PagerDuty; GitHub Actions, Jenkins, CodeDeploy
+
+**Systems** — Linux as a daily driver since the mid-2000s; shell scripting, comfortable live-debugging production issues
 
 ---
 
