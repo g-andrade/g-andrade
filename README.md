@@ -27,8 +27,8 @@ of Miniclip's biggest titles:
 | **8 Ball Pool** (mobile) | 2013–2016 |
 | **Agar.io** (web + mobile) | 2016–2018 |
 | **Mini Militia** (mobile) | 2018–2020 |
-| **Soccer Stars** | 2022 |
-| **Mini Pets**, **Dino Pets** | 2013–2014 |
+| **Soccer Stars** (mobile) | 2022 |
+| **Mini Pets**, **Dino Pets** (mobile) | 2013–2014 |
 
 …among others — designing them, shipping them, and keeping them running in
 production.
