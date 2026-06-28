@@ -1,4 +1,4 @@
-## Guilherme Andrade
+# Guilherme Andrade
 
 Software engineer based in Lisbon, specialising in Erlang and Elixir.
 I've spent over a decade building distributed backend systems —
@@ -7,16 +7,16 @@ and earlier as a sysadmin at RNL, Técnico Lisboa.
 
 ---
 
-### Experience
+## Experience
 
-**Dash Games** — Backend Engineer (contract) · 2023–2026
+### Dash Games — Backend Engineer (contract) · 2023–2026
 
 Sole engineer behind the studio's game backend — from the real-time game server
 and player systems to the full GCP infrastructure (Cloud Run, Cloud SQL,
 Terraform, IaC and CI/CD). End-to-end ownership across architecture,
 implementation, deployment and operations.
 
-**Miniclip** — Senior Software Developer · 2013–2023
+### Miniclip — Senior Software Developer · 2013–2023
 
 A decade building, deploying and operating the server-side systems behind some
 of Miniclip's biggest titles:
@@ -42,14 +42,14 @@ The work spanned the full stack of a real-time game backend:
 - **Runtime-level performance** — native code (NIFs) where the BEAM needed a
   push, plus fixes contributed back upstream into Erlang/OTP itself
 
-**RNL — Técnico Lisboa** · Systems Administrator · 2010–2012
+### RNL — Técnico Lisboa · Systems Administrator · 2010–2012
 
 Maintained computing and network infrastructure for the university's
 student-run IT group.
 
 ---
 
-### Open source
+## Open source
 
 A selection of libraries I maintain, mostly for the BEAM ecosystem:
 
@@ -68,7 +68,7 @@ A selection of libraries I maintain, mostly for the BEAM ecosystem:
 
 ---
 
-### Upstream contributions
+## Upstream contributions
 
 **[erlang/otp](https://github.com/erlang/otp)**
 
@@ -92,7 +92,7 @@ and [others](https://github.com/search?q=author%3Ag-andrade+is%3Apr+is%3Amerged&
 
 ---
 
-### Experiments
+## Experiments
 
 Small interactive toys — audio illusions, optics, generative graphics:
 
@@ -105,13 +105,13 @@ Small interactive toys — audio illusions, optics, generative graphics:
 
 ---
 
-### Talks
+## Talks
 
 [erlchronos](https://www.gandrade.net/talks/erlchronos_euc2016/) — a gen_server wrapper with ticks (Erlang User Conference 2016)
 
 ---
 
-### Technologies
+## Technologies
 
 **Languages** — Erlang, Elixir, SQL; some C, C++, JavaScript, Python, Rust over the years
 
@@ -122,7 +122,7 @@ Terraform, Docker, OpenTelemetry, GitHub Actions
 
 ---
 
-### Contact
+## Contact
 
 [website@gandrade.net](mailto:website@gandrade.net) ·
 [LinkedIn](https://www.linkedin.com/in/guilhermemandrade/) ·
