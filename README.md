@@ -61,4 +61,12 @@ Terraform, Docker, OpenTelemetry, GitHub Actions
 
 ---
 
+### Contact
+
+[website@gandrade.net](mailto:website@gandrade.net) ·
+[LinkedIn](https://www.linkedin.com/in/guilhermemandrade/) ·
+[Website](https://www.gandrade.net)
+
+---
+
 *This profile is a work in progress.*
