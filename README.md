@@ -2,7 +2,7 @@
 
 Software engineer based in Lisbon, specialising in Erlang and Elixir.
 I've spent most of my career building distributed backend systems —
-currently at [Dash Games](https://dash.games), previously a decade at Miniclip,
+currently at [Dash Games](https://dashgames.co), previously a decade at Miniclip,
 and briefly before that as a sysadmin at a university computer lab.
 
 ---
