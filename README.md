@@ -9,12 +9,13 @@ and earlier as a sysadmin at RNL, Técnico Lisboa.
 
 ## Experience
 
-### Dash Games — Backend Engineer (contract) · 2023–2026
+### Dash Games — Lead Backend Developer · 2023–2026
 
 Sole engineer behind the studio's game backend — from the real-time game server
-and player systems to the full GCP infrastructure (Cloud Run, Cloud SQL,
-Terraform, IaC and CI/CD). End-to-end ownership across architecture,
-implementation, deployment and operations.
+and player systems to the full GCP infrastructure (Cloud Run, Cloud SQL, GCS,
+Secret Manager, IAP, Workload Identity), all under Terraform IaC and CI/CD.
+End-to-end ownership across architecture, implementation, deployment and
+operations.
 
 ### Miniclip — Senior Software Developer · 2013–2023
 
@@ -25,6 +26,7 @@ of Miniclip's biggest titles:
 |---|---|
 | **8 Ball Pool** (mobile) | 2013–2016 |
 | **Agar.io** (web + mobile) | 2016–2018 |
+| **Mini Militia** (mobile) | 2018–2020 |
 | **Soccer Stars** | 2022 |
 | **Mini Pets**, **Dino Pets** | 2013–2014 |
 
@@ -33,12 +35,27 @@ production.
 
 The work spanned the full stack of a real-time game backend:
 
+- **Real-time game servers** — server-authoritative multiplayer for live,
+  latency-critical titles, including C++ game servers for real-time multiplayer
+  at viral scale. Worked across both major networking models: continuous
+  real-time state, and client-side deterministic physics for turn-based titles.
+- **Game networking** — Protocol Buffers over TCP/WebSockets as the default
+  transport, dropping to UDP for latency-sensitive titles, including a C++
+  game-networking library wrapped in an idiomatic Erlang NIF with a custom
+  binary protocol.
 - **High-concurrency load management** — worker pools, rate limiting and fair
-  resource allocation under massive, spiky traffic
-- **Real-time networking** — bandwidth-efficient serialization and compression
-  for live multiplayer
-- **Spatial & timing systems** — proximity, matchmaking and precise game-loop
-  scheduling
+  resource allocation under massive, spiky traffic.
+- **Multi-cloud infrastructure** — roughly a decade running game backends on
+  AWS at scale (compute, autoscaling, load balancing, managed data stores,
+  queues, CDN, infrastructure-as-code). Built demand-driven autoscaling against
+  cloud-provider APIs — programmatically launching and tearing down capacity to
+  track traffic peaks — across AWS, Linode and DigitalOcean.
+- **Edge security under live attack** — automated Cloudflare to shield
+  on-demand game servers from DDoS, and built an anti-cheat reputation system
+  with trust scoring and graduated reCAPTCHA challenges that withstood a
+  large-scale botnet attack shortly after launch.
+- **Observability & operations** — production monitoring, alerting and on-call,
+  with CI/CD pipelines deploying automatically to production.
 - **Runtime-level performance** — native code (NIFs) where the BEAM needed a
   push, plus fixes contributed back upstream into Erlang/OTP itself
 
@@ -113,12 +130,15 @@ Small interactive toys — audio illusions, optics, generative graphics:
 
 ## Technologies
 
-**Languages** — Erlang, Elixir, SQL; some C, C++, JavaScript, Python, Rust over the years
+**Languages** — Erlang, Elixir, SQL, C++; some C, JavaScript, Python, Rust over the years
 
 **Runtime / frameworks** — OTP, Cowboy, Phoenix (LiveView), Ecto, Protocol Buffers
 
-**Infrastructure** — GCP (Cloud Run, Cloud SQL, GCS, Secret Manager, IAP, Workload Identity),
-Terraform, Docker, OpenTelemetry, GitHub Actions
+**Infrastructure** — GCP and AWS; Terraform, CloudFormation, Docker; demand-driven autoscaling via cloud-provider APIs
+
+**Data** — PostgreSQL, DynamoDB, Redis
+
+**Observability & CI/CD** — Datadog, OpenTelemetry, PagerDuty; GitHub Actions, Jenkins, CodeDeploy
 
 ---
 
