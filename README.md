@@ -69,7 +69,8 @@ network behind them, mostly Linux with some Windows/Active Directory.
 
 ## Open source
 
-A selection of libraries I maintain, mostly for the BEAM ecosystem:
+A selection of libraries I maintain, mostly for the BEAM ecosystem —
+**19 packages on Hex, 16M+ total downloads**:
 
 **Recent — [xb5](https://github.com/g-andrade/xb5):** B-tree (order 5) data
 structures for Erlang/OTP — drop-in `gb_trees`/`gb_sets` alternatives that run
@@ -77,16 +78,16 @@ structures for Erlang/OTP — drop-in `gb_trees`/`gb_sets` alternatives that run
 multiset (rank, nth element, percentile). Ships with an
 [idiomatic Elixir wrapper](https://hexdocs.pm/xb5_elixir/).
 
-| Project | Description | Stars |
-|---|---|---|
-| [locus](https://github.com/g-andrade/locus) | MMDB reader for Erlang/Elixir — IP geolocation and ASN lookup | ⭐ 121 |
-| [sqids-elixir](https://github.com/sqids/sqids-elixir) | Official Elixir port of Sqids — short unique IDs from numbers | ⭐ 94 |
-| [aequitas](https://github.com/g-andrade/aequitas) | Fairness regulator and rate limiter | ⭐ 50 |
-| [backwater](https://github.com/g-andrade/backwater) | Intercluster RPC for Erlang and Elixir | ⭐ 48 |
-| [taskforce](https://github.com/g-andrade/taskforce) | On-demand worker pools for parallelizable tasks | ⭐ 43 |
-| [maestro](https://github.com/g-andrade/maestro) | Pool of pools | ⭐ 31 |
-| [deigma](https://github.com/g-andrade/deigma) | Event sampler | ⭐ 24 |
-| [tls_certificate_check](https://github.com/g-andrade/tls_certificate_check) | CA store and partial chain handler for TLS | ⭐ 23 |
+| Project | Description | Hex downloads | Stars |
+|---|---|---|---|
+| [tls_certificate_check](https://github.com/g-andrade/tls_certificate_check) | CA store and partial chain handler for TLS | 14.7M | ⭐ 23 |
+| [locus](https://github.com/g-andrade/locus) | MMDB reader for Erlang/Elixir — IP geolocation and ASN lookup | 580K | ⭐ 121 |
+| [aequitas](https://github.com/g-andrade/aequitas) | Fairness regulator and rate limiter | 179K | ⭐ 50 |
+| [sqids-elixir](https://github.com/sqids/sqids-elixir) | Official Elixir port of Sqids — short unique IDs from numbers | 83K | ⭐ 94 |
+| [taskforce](https://github.com/g-andrade/taskforce) | On-demand worker pools for parallelizable tasks | 55K | ⭐ 43 |
+| [erlffx](https://github.com/g-andrade/erlffx) | Format-preserving encryption (FFX) | 48K | ⭐ 9 |
+| [backwater](https://github.com/g-andrade/backwater) | Intercluster RPC for Erlang and Elixir | 45K | ⭐ 48 |
+| [deigma](https://github.com/g-andrade/deigma) | Event sampler | 2.4K | ⭐ 24 |
 
 → [full list](https://github.com/g-andrade?tab=repositories)
 
