@@ -71,6 +71,12 @@ network behind them, mostly Linux with some Windows/Active Directory.
 
 A selection of libraries I maintain, mostly for the BEAM ecosystem:
 
+**Recent — [xb5](https://github.com/g-andrade/xb5):** B-tree (order 5) data
+structures for Erlang/OTP — drop-in `gb_trees`/`gb_sets` alternatives that run
+**1.2–2.5× faster** with equal or lower heap use, plus an order-statistic
+multiset (rank, nth element, percentile). Ships with an
+[idiomatic Elixir wrapper](https://hexdocs.pm/xb5_elixir/).
+
 | Project | Description | Stars |
 |---|---|---|
 | [locus](https://github.com/g-andrade/locus) | MMDB reader for Erlang/Elixir — IP geolocation and ASN lookup | ⭐ 121 |
