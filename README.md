@@ -78,6 +78,11 @@ structures for Erlang/OTP — drop-in `gb_trees`/`gb_sets` alternatives that run
 multiset (rank, nth element, percentile). Ships with an
 [idiomatic Elixir wrapper](https://hexdocs.pm/xb5_elixir/).
 
+**Recent — [ex_fpe](https://github.com/g-andrade/ex_fpe):** Format-preserving
+encryption for Elixir — a pure-Elixir implementation of the NIST SP 800-38G
+modes FF1 and FF3-1, extending my Erlang
+[erlffx](https://github.com/g-andrade/erlffx) to Elixir.
+
 | Project | Description | Hex downloads | Stars |
 |---|---|---|---|
 | [tls_certificate_check](https://github.com/g-andrade/tls_certificate_check) | CA store and partial chain handler for TLS | 14.7M | ⭐ 23 |
