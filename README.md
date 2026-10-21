@@ -59,7 +59,7 @@ and [others](https://github.com/search?q=author%3Ag-andrade+is%3Apr+is%3Amerged&
 
 **Runtime & data** - OTP, Cowboy, Phoenix (LiveView), Ecto, Protocol Buffers; PostgreSQL, DynamoDB, Redis
 
-**Infrastructure & ops** - GCP and AWS; Terraform, CloudFormation, Docker; Datadog, OpenTelemetry, PagerDuty; GitHub Actions, Jenkins, CodeDeploy
+**Infrastructure & ops** - GCP and AWS; Terraform, CloudFormation, Docker; Datadog, PagerDuty; GitHub Actions, Jenkins, CodeDeploy
 
 **Systems** - Linux as a daily driver since the mid-2000s; shell scripting, comfortable live-debugging production issues
 
