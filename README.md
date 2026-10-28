@@ -1,7 +1,7 @@
 # Guilherme Andrade
 
 Software engineer based in Lisbon, specialising in Erlang and Elixir.
-I've spent over a decade building distributed backend systems —
+I've spent over a decade building distributed backend systems:
 most recently at Dash Games, before that a decade at Miniclip.
 
 ---
@@ -10,12 +10,12 @@ most recently at Dash Games, before that a decade at Miniclip.
 
 **Recent**
 
-- [claude-sandbox](https://github.com/g-andrade/claude-sandbox) — Per-project
-  Docker sandboxes for Claude Code; outbound traffic only to allowlisted domains.
-- [xb5](https://github.com/g-andrade/xb5) — B-trees (order 5) for Erlang/OTP:
-  drop-in `gb_trees`/`gb_sets` alternative that runs **1.2–2.5× faster**, plus
-  an order-statistic multiset (rank, nth element, percentile).
-- [ex_fpe](https://github.com/g-andrade/ex_fpe) — Format-preserving encryption
+- [claude-sandbox](https://github.com/g-andrade/claude-sandbox) - Per-project
+  Docker sandboxes for Claude Code; outbound traffic only to listed domains.
+- [xb5](https://github.com/g-andrade/xb5) - B-trees (order 5) for Erlang/OTP:
+  drop-in `gb_trees`/`gb_sets` alternative that runs 1.2–2.5× faster, plus an
+  order-statistic multiset (rank, nth element, percentile).
+- [ex_fpe](https://github.com/g-andrade/ex_fpe) - Format-preserving encryption
   for Elixir: an implementation of the NIST SP 800-38G modes FF1 and FF3-1.
 
 | Project | Description | Hex downloads | Stars |
