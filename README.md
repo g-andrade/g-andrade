@@ -4,6 +4,10 @@ Software engineer based in Lisbon, specialising in Erlang and Elixir.
 I've spent over a decade building distributed backend systems:
 most recently at Dash Games, before that a decade at Miniclip.
 
+## Recent work
+
+**[Contesto](https://contesto.pt)** — Semantic and keyword search over Portuguese parliamentary debates, with debate context and voting records. Built with Elixir and Phoenix LiveView.
+
 ## Technologies
 
 **Languages** - Erlang, Elixir, C++, SQL; some C, JavaScript, Python, Rust over the years
