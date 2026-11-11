@@ -6,7 +6,7 @@ most recently at Dash Games, before that a decade at Miniclip.
 
 ## Recent work
 
-**[Contesto](https://contesto.pt)** — Semantic and keyword search over Portuguese parliamentary debates, with debate context and voting records. Built with Elixir and Phoenix LiveView.
+**[Contesto](https://contesto.pt)** — Hybrid search over Portuguese parliamentary debates, combining vector embeddings and BM25 keyword retrieval. Built with Elixir, Phoenix LiveView and Qdrant, with local model inference and relevance evaluation.
 
 ## Technologies
 
